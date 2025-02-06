@@ -8,7 +8,7 @@ int maain()
         printf("In Range");
     }
     else
-    [
+    {
         printf("Out of Range");
-    ]
+    }
 }
