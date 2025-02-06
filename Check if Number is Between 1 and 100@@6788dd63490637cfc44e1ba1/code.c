@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int a;
-    scanf("%d",&a);
-    if(1<=a<=100)
+    int x;
+    scanf("%d",&x);
+    if(1<=x<=100)
     {
         printf("In Range");
     }
