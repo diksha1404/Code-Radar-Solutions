@@ -7,8 +7,11 @@ int main()
     {
         printf("In Range");
     }
-    else
+    else if(x == 0)
     {
+        printf("Out of Range");
+    }
+    else{
         printf("Out of Range");
     }
 }
