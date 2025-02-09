@@ -5,22 +5,22 @@ int main()
     scanf("%d",&x);
     if(90<=x<=100)
     {
-        printf("'A'");
+        printf("A");
     }
     else if(80<=x<90)
     {
-        printf("'B'");
+        printf("B");
     }
     else if(70<=x<80)
     {
-        printf("'C'");
+        printf("C");
     }
     else if(60<=x<70)
     {
-        printf("'D'");
+        printf("D");
     }
     else if(x<60)
     {
-        printf("'F'");
+        printf("F");
     }
 }
