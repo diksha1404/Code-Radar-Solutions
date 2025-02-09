@@ -6,6 +6,7 @@ int main()
     for(int i=1;i<=10;i++)
     {
        m = 2*i;
+        printf("2 * %d = %d",i,m);
     }
-     printf("2 * %d = %d",i,m);
+    //  printf("2 * %d = %d",i,m);
 }
