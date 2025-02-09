@@ -5,6 +5,6 @@ int main()
     scanf("%d",&x);
     for(int i=1;i<=x;i++)
     {
-        printf("*");
+        printf("*\n");
     }
 }
