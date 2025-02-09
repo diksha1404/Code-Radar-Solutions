@@ -8,4 +8,4 @@ int main()
        m = 2*i;
     }
 }
-        printf("2   %d = %d\n",i,m);
+        printf("2 * %d = %d\n",i,m);
