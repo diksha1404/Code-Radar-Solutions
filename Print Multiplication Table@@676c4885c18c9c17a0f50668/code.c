@@ -6,7 +6,7 @@ int main()
     for(int i=1;i<=10;i++)
     {
        m = 2*i;
-         printf("2 * %d = %d\n",i,m);
+         printf("2 x %d = %d\n",i,m);
     }
       
        
