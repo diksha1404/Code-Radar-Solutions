@@ -5,8 +5,8 @@ int main()
     scanf("%d",&n);
     for(int i=1;i<=10;i++)
     {
-       m = 2*i;
-         printf("2 x %d = %d\n",i,m);
+       m = n*i;
+         printf("n x %d = %d\n",i,m);
     }
       
        
