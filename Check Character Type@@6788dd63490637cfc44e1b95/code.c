@@ -3,11 +3,11 @@ int main()
 {
     char x;
     scanf("%c",&x);
-    if(x<='9' && x>='0')
+    if((x<='9') && (x>='0'))
     {
         printf("Digits \n");
     }
-    else if((x>='A') && (x<='Z') && (x>='a') && (x<='z'))
+    else if((x>='A') && (x<='Z') || (x>='a') && (x<='z'))
     {
         if(x=='e'|| x=='a' || x=='i'|| x=='o' || x=='u' || x=='A' || x=='E' || x=='I' x=="O" || x=='U')
         {
