@@ -7,14 +7,14 @@ int main()
     {
         printf("Digits \n");
     }
-    else if(('a'<=x && x>='z') || ('A'<=x && x>='Z'))
+    else if((x>='A') && (x<='Z') && (x>='a') && (x<='z'))
     {
         if(x=='e'|| x=='a' || x=='i'|| x=='o' || x=='u' || x=='A' || x=='E' || x=='I' x=="O" || x=='U')
         {
-            printf("Vowels");
+            printf("Vowels \n");
         }
         else{
-            printf("Consonants");
+            printf("Consonants \n");
         }
     } 
     else{
