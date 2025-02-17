@@ -5,10 +5,10 @@ int main()
     scanf("%d",&a);
     if(a >= 'A' && a <= 'Z')
     {
-        printf("Uppercase");
+        printf("Lowercase");
     }
     else
     {
-        printf("Lowercase");
+        printf("Uppercase");
     }
 }
