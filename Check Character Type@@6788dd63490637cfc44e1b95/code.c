@@ -3,19 +3,18 @@ int main()
 {
     char x;
     scanf("%c",&x);
-    if(x == a || x == e || x == i || x == o || x == u)
+    if(x<=9 && x>=0)
     {
-        printf("Vowel");
+        printf("Digits");
     }
-    else if(x!=a || x!=e || x!=i || x!=o || x!=u)
+    else if((a<=x && x>=z) || (A<=x && x>=Z)
     {
-        printf("Consonants");
-    }
-    else if(x==1 || x==2 || x==3 || x=4 || x==5 || x==6 || x==7 || x==8 || x==9)
-    {
-        printf("Digit");
-    }
-    else{
-        printf("Special Character");
-    }
+        if(x=='e'|| x=='a' || x=='i'|| x=='o' || x=='u' || x=='A' || x=='E' || x=='I' x=="O" || x=='U')
+        {
+            printf("Vowels");
+        }
+        else{
+            printf("Consonants");
+        }
+    } 
 }
