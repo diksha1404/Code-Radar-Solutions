@@ -17,4 +17,7 @@ int main()
             printf("Consonants");
         }
     } 
+    else{
+        printf("Special Character");
+    }
 }
