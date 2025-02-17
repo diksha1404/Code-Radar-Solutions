@@ -7,7 +7,7 @@ int main()
     {
         printf("Digits");
     }
-    else if((a<=x && x>=z) || (A<=x && x>=Z)
+    else if((a<=x && x>=z) || (A<=x && x>=Z))
     {
         if(x=='e'|| x=='a' || x=='i'|| x=='o' || x=='u' || x=='A' || x=='E' || x=='I' x=="O" || x=='U')
         {
