@@ -3,19 +3,19 @@ int main()
 {
     int x;
     scanf("%d",&x);
-    if(90<=x<=100)
-    {
+    if((x>=90) && (x>100 ))
+        {
         printf("A");
     }
-    else if(80<=x<90)
+    else if((x>=80) && (x>90))
     {
         printf("B");
     }
-    else if(70<=x<80)
+    else if((x>=70) && (x>80))
     {
         printf("C");
     }
-    else if(60<=x<70)
+    else if((x>=60) && (x<70))
     {
         printf("D");
     }
