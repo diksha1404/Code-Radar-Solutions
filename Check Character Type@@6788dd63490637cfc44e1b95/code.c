@@ -5,19 +5,20 @@ int main()
     scanf("%c",&x);
     if((x<='9') && (x>='0'))
     {
-        printf("Digits \n");
+        printf("Digit \n");
     }
     else if((x>='A') && (x<='Z') || (x>='a') && (x<='z'))
     {
         if(x=='e'|| x=='a' || x=='i'|| x=='o' || x=='u' || x=='A' || x=='E' || x=='I' x=="O" || x=='U')
         {
-            printf("Vowels \n");
+            printf("Vowel \n");
         }
         else{
-            printf("Consonants \n");
+            printf("Consonant \n");
         }
     } 
     else{
-        printf("Special Character");
+        printf("Special Character \n");
     }
+    return 0;
 }
