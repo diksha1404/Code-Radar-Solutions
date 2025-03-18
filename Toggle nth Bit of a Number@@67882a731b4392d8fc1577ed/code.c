@@ -7,5 +7,5 @@ int main()
     scanf("%d",&n);
     number = number ^ (1 << n);
     printf("%d",number);
-    return o;
+    return 0;
 }
