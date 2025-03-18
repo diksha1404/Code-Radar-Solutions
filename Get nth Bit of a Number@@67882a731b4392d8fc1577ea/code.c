@@ -6,5 +6,6 @@ int main()
     scanf("%d",&x);
     scanf("%d",&y);
     int bit = (x>y) & 1;
-    printf("%d",bit);
+    printf("%d", bit);
+    return 0;
 }
