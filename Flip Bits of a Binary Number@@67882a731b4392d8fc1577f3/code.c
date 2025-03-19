@@ -12,7 +12,7 @@ int main() {
     unsigned int flipped_number = ~number;
 
    
-    printf("%u\n", number);
+    // printf("%u\n", number);
     printf("%u\n", flipped_number);
 
     return 0;
