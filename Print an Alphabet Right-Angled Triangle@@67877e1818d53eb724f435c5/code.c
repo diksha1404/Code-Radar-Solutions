@@ -11,7 +11,7 @@ int main()
         {
             int d = a+64;
             char ch = (char)d;
-            printf("%c",ch);
+            printf("%c ",ch);
             a++;
         }
         printf("\n");
