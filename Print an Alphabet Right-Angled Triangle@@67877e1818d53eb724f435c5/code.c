@@ -9,7 +9,9 @@ int main()
         int a=1;
         for(int j=1;j<=n;j++)
         {
-            printf("%c",a+64);
+            int d = a+64;
+            char ch = (char)d;
+            printf("%c",d);
             a++;
         }
         printf("\n");
